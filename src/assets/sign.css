@@ -1,0 +1,104 @@
+.heading{
+    background-image: url('src/assets/image/background-twit.avif');
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 95pc;
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+    margin-top: 0px;
+    width: 600px;
+    height: 680px;
+    padding: 10px;
+
+}
+.imgval{
+    width: 50px;
+    height: 50px;
+}
+
+input{
+    width: 450px;
+    padding: 20px 0 7px 10px;
+    margin-left: 0;
+    margin-top: 15px;
+    border: 2px solid rgb(43, 179, 233);
+    /* border-radius: 5pc ; */
+    background-color: #fff;
+    border: 2px solid rgb(36, 179, 236) ;
+    outline: none;
+}
+input:focus,
+input:active {
+    color: black;
+    border-color:rgb(25, 180, 241);
+}
+i{
+    background-color: dodgerblue;
+    font-size: 1.7pc;
+    padding: 5px;    
+}
+h1{
+    text-align: center;
+}
+.input-name{
+    margin-left: 2.5pc;
+}
+.input-name button{
+    width: 510px;
+    padding: 20px 0 7px 10px;
+    margin-left: 0;
+    margin-top: 15px;
+    border: 2px solid rgb(43, 179, 233);
+    /* border-radius: 5pc ; */
+    background-color: dodgerblue;
+    border: 2px solid rgb(36, 179, 236) ;
+
+}
+.remember{
+    margin-left: -10pc;
+    padding-top: 15px;
+}
+span{
+    margin-left: -13pc;
+}
+.another-way{
+    display: flex;
+    flex-direction: row;
+}
+.forgot{
+    padding: 25px 0 0 14pc;
+}
+h2{
+    text-align: center;
+}
+.online{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 2.5pc;
+}
+.facebook{
+    margin-left: 2pc;
+    width: 15pc;
+    background-color: dodgerblue;
+
+}
+.google{
+    width: 15pc;
+    color: black;
+    background-color: white;
+}
+.google img{
+    width: 2pc;
+    height: 2pc;
+    
+}
+.facebook img{
+    width: 3pc;
+    height: 2pc;
+    margin-left: -5pc;
+    
+}

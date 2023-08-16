@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-end;
+}
+button{
+    background-color: lightskyblue;
+    color: white;
+    border-radius:  20% 30% ;
+    width: 60px;
+    padding: 5px;
+    border: none;
+   
+}
+.heading{
+    background-image: url('../assets/image/logo-page.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 900px;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    margin-top: 0px;
+    margin-left: 900px;
+    width: 600px;
+    height: 680px;
+    background-color: #fff;
+    padding: 10px;
+
+}
+.imgval{
+    margin-left: -16pc;
+    width: 50px;
+    height: 50px;
+}
+input{
+    width: 550px;
+    padding: 15px;
+    margin-left: 10px;
+    margin-top: 15px;
+    border: 2px solid rgb(43, 179, 233);
+    border-radius: 5pc ;
+    background-color: #fff;
+    border: 2px solid rgb(43, 179, 233) ;
+}
+input:focus,
+input:active {
+    font-size: 15px;
+    color: rgb(43, 179, 233);
+    border-color:rgb(43, 179, 233);
+    /* border: 2px solid rgb(27, 176, 235); */
+
+
+}
+p{
+    color: black;
+}
+select{
+    margin-left: 10px;
+}
+.or{
+    margin-left: 300px;
+    margin-top: 40px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.google{
+  
+    width: 30pc;
+    margin-left: 4pc;
+    height: 3.3pc;
+    border-radius: 5pc;
+    background-color: #fff;
+    border-color:black;
+    color: black;
+
+}
+.google img{
+    
+    width: 2.5pc;
+    margin-bottom: 10px;
+    margin-left: -17pc;
+}
+.parag{
+    margin-left: 3pc;
+    margin-top: -3pc;
+}
