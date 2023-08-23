@@ -1,34 +1,42 @@
 import React from 'react'
-import '../assets/sign.css'
+import styles from '../assets/sign.module.css'
+import { Link } from 'react-router-dom'
 const Signin = () => {
   return (
-    <div className='heading'>
-         <div className='main'>
-         <a href=''>
-    <img src='src/assets/image/twitter-logo.png' alt='image' className='imgval' />
-    </a>
+<div className={styles.heading}>
+         <div className={styles.main}>
+         <Link to={"/"} >
+    <img src='src/assets/image/twitter-logo.png' alt='image' className={styles.imgval} />
+    </Link>
     <h1>Sign in</h1>
-<div className='input-name'> <i>👤</i><input type='text' placeholder='Name' name='name'/></div>
- <div className='input-name'><i>🔑</i><input type='password' placeholder='Password' name='phone'/></div>
- <div className="input-name"><button>
+<div className={styles.inputNa}> <i>👤</i><input type='text' placeholder='Name' name='name' className={styles.inputans}/></div>
+ <div className={styles.inputNa}><i>🔑</i><input type='password' placeholder='Password' name='phone' className={styles.inputans}/></div>
+ <div className={styles.inputNa}>
+  <Link to={'/blog'}>
+  <button>
   Sign in
-  </button></div>
-  <div className="another-way">
-    <div className='remember'>
-    <input type="checkbox" /><span>Remember me</span>
+  </button>
+  </Link>
+  </div>
+  <div className={styles.another}>
+    <div className={styles.remember}>
+    <input type="checkbox"className={styles.inputcheck} /><span className={styles.spanSi}>Remember me</span>
     </div>
-    <div className="forgot">
-      <a href='#'> Forgot password ?</a>
+    <div className={styles.forgot}>
+      <Link to={'/'}> Forgot password ?</Link>
     </div>
   </div>
   <h2>or</h2>
-  <div className="online">
-    <button className='google'><img src="src\assets\image\google-logo.png" alt="google" />
+  <div className={styles.online}>
+    <button className={styles.google}><img src="src\assets\image\google-logo.png" alt="google" />
  Continue with Google</button>
-    <button className='facebook'><img src="src\assets\image\Facebook-logo.png" alt="facebook" /> Facebook</button>
+    <button className={styles.facebook}><img src="src\assets\image\Facebook-logo.png" alt="facebook" /><p > Facebook</p></button>
   </div>
 </div>
+
     </div>
+
+    
   )
 }
 

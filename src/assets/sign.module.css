@@ -1,11 +1,11 @@
 .heading{
-    background-image: url('src/assets/image/background-twit.avif');
+    background-image: url('./image/background-twit.avif');
     background-repeat: no-repeat;
     background-size:cover;
-    width: 95pc;
+    width: 100pc;
+    height: 46.6pc;
     margin: 0;
     padding: 0;
-
 }
 .main{
     margin-top: 0px;
@@ -19,7 +19,7 @@
     height: 50px;
 }
 
-input{
+.inputans,input{
     width: 450px;
     padding: 20px 0 7px 10px;
     margin-left: 0;
@@ -30,8 +30,9 @@ input{
     border: 2px solid rgb(36, 179, 236) ;
     outline: none;
 }
-input:focus,
-input:active {
+
+.inputans:focus,
+.inputans:active {
     color: black;
     border-color:rgb(25, 180, 241);
 }
@@ -43,10 +44,10 @@ i{
 h1{
     text-align: center;
 }
-.input-name{
+.inputNa{
     margin-left: 2.5pc;
 }
-.input-name button{
+.inputNa button{
     width: 510px;
     padding: 20px 0 7px 10px;
     margin-left: 0;
@@ -61,10 +62,11 @@ h1{
     margin-left: -10pc;
     padding-top: 15px;
 }
-span{
+.spanSi{
     margin-left: -13pc;
+    color: black;
 }
-.another-way{
+.another{
     display: flex;
     flex-direction: row;
 }

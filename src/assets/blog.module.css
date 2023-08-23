@@ -1,0 +1,195 @@
+.body{
+    margin: 0;
+    padding: 0;
+    width: 10%;
+   
+   
+}
+.main{
+    display: flex;
+    flex-direction: row;
+
+}
+.submain1{
+    position: fixed;
+    margin-top: 0;
+    height: 100%;
+    width: 15pc;
+    background-color: rgba(255, 255, 255, 0.116);
+}
+.submain2{
+    margin-left: 15pc;
+    border-left: 2px solid black;
+    height: 100%;
+    border: 2px solid rgba(14, 2, 2, 0);
+    width: 55pc;
+    border-left: 2px solid black;
+}
+.hover{
+    background-color: #fff;
+}
+.changehover {
+    
+    background-color: #fff;  
+    width:7pc;
+    height: 100%;
+}
+.changehover button{
+    width: 4pc;
+    font-size:smaller;
+}
+.changehover  .link ul {
+    margin-right:9px;
+}
+
+.link ul {
+    list-style-type: none;
+    margin-left: -2.4pc;
+}
+
+.link ul li{
+    margin-left: 3pc;
+    margin-bottom: 2pc;  
+    line-height: 1pc;
+    list-style-type: none;
+    color: black;
+    
+}
+.spanBl{
+    font-size: larger;
+}
+.link ul li img{
+    width: 2.2pc;
+}
+
+.tweet {
+    margin-top: 1pc;
+    margin-left: 3pc;
+    width: 12pc;
+    height: 2.5pc;
+    border-radius: 2pc;
+    border-color: transparent;
+    background-color: dodgerblue;
+}
+.heading ul{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    width: 68.4pc;  
+    background-color: #fff;
+    margin-top: 0;
+
+}
+.heading ul li{
+    margin-right: 5pc;
+    list-style-type: none;
+}
+.heading ul li img{
+    width: 3.4pc;
+}
+
+.mainsign{
+    height: 2pc;
+}
+.imglogo{
+    margin-top: 2pc;
+    margin-left: 2pc;
+   
+    width: 5pc;
+    height: 5pc;
+}
+.linkediv{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+
+}
+.submain1logo{
+    width: 4pc;
+    height: 4pc;
+}
+.subbio1{
+    display: flex;
+    flex-direction: row;
+}
+h2{
+    margin-left: 4pc;
+    margin-top: 4pc;
+}
+span{
+    margin-left: 1pc;
+    margin-top: 4.3pc;
+}
+
+.action {
+    margin-top: 10pc;
+    display: flex;
+    flex-direction: row;
+    margin-right: 5pc;
+}
+
+
+label{
+    height: 100px;
+    width: 100px;
+    border-radius: 6px;
+    border: 1px dashed #990;
+    cursor: pointer;
+}
+.bioimg{
+    margin: 2pc 0 0 10pc;
+    width: 3pc;
+    height: 3pc;
+}
+.bioimg img{
+    margin-top: 2pc;
+    width: 35pc;
+}
+.action li{
+    margin: 2pc 0 2pc 5pc;
+    list-style-type: none;
+    
+}
+.inputimages{
+    margin-top: -2pc;
+    width: 15pc;
+    border-color:transparent;
+}
+.li4{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+.li4 img{
+    width: 2pc;
+}
+.imglogo img{
+    width: 7pc;
+    border: 2px solid gray;
+    border-radius: 5pc;
+}
+.mainimage{
+   display: grid;
+   grid-template-columns: auto auto auto;
+    margin-left: 2pc;
+
+    border-radius: 2pc;
+}
+.mainimage img{
+    margin: 2pc;
+    width: 10pc;
+    height:10pc;
+    border-radius: 2pc;
+}
+.submain3{
+    margin-left: 70pc;
+    position:fixed;
+
+    width: 25pc;
+    height: 100%;
+    border: 2px solid black;
+}
+.subbio3{
+    border: 2px solid black;
+
+}
